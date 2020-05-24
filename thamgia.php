@@ -97,7 +97,7 @@ function ketnoi($userid,$gioitinh) { //tìm người chát
           "elements":[
             {
               "title":"Đang thả câu...",
-              "subtitle":"Đợi xíu BOT đang tìm một con cá siu to khổng lồ cho bạn nè (😋)"
+              "subtitle":"Đợi xíu ha, BOT đang tìm một con cá siu to khổng lồ cho bạn nè (😋)"
             }
           ]
         }
@@ -109,8 +109,8 @@ function ketnoi($userid,$gioitinh) { //tìm người chát
 } else {  // neu co nguoi trong hàng chờ
     addketnoi($userid, $partner);
 	
-	sendchat($userid,"✅ Cá đã cắn câu, mau giật thôi (😝)");  
-	sendchat($partner,"✅ Cá đã cắn câu, mau giật thôi (😝)");  
+	sendchat($userid,"✅ Lẹ lên, lẹ lên, cá đớp thính rồi (😝)");  
+	sendchat($partner,"✅ Lẹ lên, lẹ lên, cá đớp thính rồi (😝)");  
   }
 }
 
