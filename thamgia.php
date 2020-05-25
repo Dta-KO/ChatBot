@@ -108,7 +108,6 @@ function ketnoi($userid,$gioitinh) { //tìm người chát
 	  
 } else {  // neu co nguoi trong hàng chờ
     addketnoi($userid, $partner);
-	
 	sendchat($userid,"✅ Lẹ lên, lẹ lên, cá đớp thính rồi (😝)");  
 	sendchat($partner,"✅ Lẹ lên, lẹ lên, cá đớp thính rồi (😝)");  
   }
